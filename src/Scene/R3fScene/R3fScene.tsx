@@ -9,6 +9,7 @@ import {Player} from './Player'
 export const R3fScene = () => {
   return (
     <Suspense>
+      {/* <ARButton/> */}
       <VRButton/>
       <Canvas>
         <PerspectiveCamera
