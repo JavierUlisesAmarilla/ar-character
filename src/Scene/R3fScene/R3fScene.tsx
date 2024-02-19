@@ -12,11 +12,11 @@ export const R3fScene = () => {
       <ARButton/>
       {/* <VRButton/> */}
       <Canvas>
-        <PerspectiveCamera
-          makeDefault
-          position={[10, 10, 10]}
-        />
         <XR>
+          <PerspectiveCamera
+            makeDefault
+            position={[10, 10, 10]}
+          />
           <ambientLight intensity={0.5}/>
           <pointLight position={[5, 5, 5]}/>
           <Controllers/>
